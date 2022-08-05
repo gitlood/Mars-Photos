@@ -22,6 +22,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.android.marsphotos.network.MarsApiService
 import kotlinx.coroutines.launch
+import java.lang.Exception
 
 /**
  * The [ViewModel] that is attached to the [OverviewFragment].
@@ -43,12 +44,16 @@ class OverviewViewModel : ViewModel() {
 
     /**
      * Gets Mars photos information from the Mars API Retrofit service and updates the
-     * [MarsPhoto] [List] [LiveData].
+     * [List] [LiveData].
      */
     private fun getMarsPhotos() {
         viewModelScope.launch {
-            val listResult = MarsApiService.MarsApi.retrofitService.getPhotos()
-            _status.value = listResult
+            try {
+                val listResult = MarsApiService.MarsApi.retrofitService.getPhotos()
+                _status.value = "Success: ${listResult.size} Mars photos retrieved"
+            } catch (e: Exception) {
+                _status.value = "Failure: ${e.message}"
+            }
         }
     }
 }
