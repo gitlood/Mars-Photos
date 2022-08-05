@@ -51,6 +51,8 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/d59e5067081be29cae2052831b1bfdb9/transformed/jetified-kotlin-stdlib-jdk8-1.6.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/57937207b407dd8ac953e21ed235d468/transformed/jetified-kotlin-stdlib-jdk7-1.6.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0a601a4efa76808f6b4ddd5254cba4cd/transformed/jetified-kotlin-stdlib-1.7.10.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/54a694c6b9c2533469664f510afaf095/transformed/jetified-converter-scalars-2.9.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/4b5580285fce84ac543e1a021bb5685d/transformed/jetified-retrofit-2.9.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/bb3afa2ec53f7bc3f3309f00df969d67/transformed/jetified-viewbinding-7.2.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/22e7fbe2e1bf135c0f5c7fa43976b77e/transformed/jetified-lifecycle-process-2.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/90a53b29b15dc0d3478291da710f7141/transformed/jetified-lifecycle-service-2.2.0-api.jar</arg>
@@ -83,6 +85,8 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/77f1b19cff36e5fa0cc4b01c26b149d3/transformed/jetified-annotation-experimental-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/7d2266436ee4a326561d9274788e5bda/transformed/jetified-kotlin-stdlib-common-1.7.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/668798d509f124ed54075ddf4f915d94/transformed/jetified-annotations-13.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/93ebac6a9c18e686cdb500e1d606b0f2/transformed/jetified-okhttp-3.14.9.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/d8941a3801b903e8e7acc996b98bc300/transformed/jetified-okio-1.17.2.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-33/android.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
               </args>
@@ -165,6 +169,10 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.collection:collection:1.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.collection:collection-ktx:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.retrofit2:retrofit:2.9.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okhttp3:okhttp:3.14.9" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okio:okio:1.17.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.retrofit2:converter-scalars:2.9.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:databinding-runtime:7.2.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:viewbinding:7.2.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.5.1@aar" level="project" />
